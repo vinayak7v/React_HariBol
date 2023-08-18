@@ -1,0 +1,21 @@
+.display-latest{
+    /* display:flex;
+    flex-direction: row; */
+}
+.dattaa{
+    display: flex;
+}
+@media screen and (min-width:200px) and (max-width:736px){
+    .dattaa{
+       display: block;
+       width: auto;
+       justify-content: center;
+    }
+    /* .latest-home-data{
+        width: auto;
+    }
+    .media-latest{
+        width: auto;
+    } */
+    
+}

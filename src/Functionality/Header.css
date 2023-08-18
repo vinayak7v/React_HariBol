@@ -1,0 +1,147 @@
+/* 
+
+.heading{
+    text-align: center;
+}
+.sections{
+   
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    
+}
+.sections{
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.logo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    display: inline-block;
+    transform: rotate(269deg);
+}
+ */
+ .main-head{
+    width: 100%;
+}
+
+
+.Logo-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Logo-bar a{
+    color: black;
+    text-decoration: none;
+}
+.Logo-name{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    transform: rotate(269deg);
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.link-data{
+    text-decoration: none;
+}
+
+.nav-link a{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+} 
+.nav-link li{
+    list-style: none;
+} 
+
+.hr-strline{
+    background-color: rgb(134, 126, 126);
+    width: 90%;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.activeClass{
+    color: rgb(113, 163, 38) !important;
+    
+}
+
+.notactiveClass{
+    color: black !important;
+   
+}
+.buger{
+    display: none;
+}
+
+.menu-bar{
+    display: none;
+}
+
+
+/* Media Queries  */
+
+/* Mobile Size Media */
+
+@media screen and (max-width: 768px){
+    .main-head{
+        box-shadow: 0px 2px 5px grey;
+    }
+    .Logo-bar{
+        justify-content: flex-start;
+    }
+    .nav-link{
+        display: none;
+    }
+    .hr{
+        display: none;
+    }
+    .mobile-view{
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        flex-direction: column;
+        background: white;
+        height: 18.1rem;
+    }
+    .mobile-view li{
+        border-bottom: 1px solid grey;
+        text-align: center;
+        font-size: 2rem;
+        list-style: none;
+    }
+    
+    .menu-bar{
+        background: transparent;
+        outline: none;
+        border: none;
+        display: block;
+        font-size: 3rem;
+        font-weight: 900;
+        position: absolute;
+        top: 16px;
+        right: 11px;
+    }
+}
+ 

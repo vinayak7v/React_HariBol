@@ -1,0 +1,158 @@
+/* ------------------Universal----------------- */
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+
+/* ----------------HOME-JUNCTION---------------- */
+
+.home-first{
+   display: flex;
+   /* background-color: rgb(223, 241, 235); */
+   justify-content: space-evenly;
+   /* height: ; */
+  
+   
+}
+/* .left-section{
+    width:40%;
+    height: auto;
+    border-radius: 2px;
+} */
+.left-part-home{
+    width: max-content;
+    height: 520px;
+    height: fit-content;
+    /* flex: auto; */
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.one{ 
+    position: absolute;
+    left: 46px;
+    bottom: 80px;
+    color: white;
+    font-size: 1.2rem;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.right-part-home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+.two{ 
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+.three{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.section-head{
+    display: flex;
+    justify-content: space-between;
+}
+/* ----------------Bollywood-data-------------- */
+.hr-line{
+    border: 2px solid red;
+    width: 8vw;
+}
+.Uni-data{
+    width: 40vw;
+    /* display: flex;
+    flex-direction: row; */
+    /* box-shadow: 0px 0px 2px black; */
+}
+.link-data{
+    color: black;
+}
+.whole-data{
+    display: flex;
+}
+.subhead-data{
+    color: rgb(164, 189, 190);
+    font-weight: 700;
+}
+
+.main-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* --------------------MEDIA-SCREEN------------------ */
+@media screen and (min-width:200px) and (max-width:736px) {
+
+/* ------------------- -Home-section-------------------*/
+    .home-first{
+       
+        flex-direction: column;
+        /* background-color: rgb(223, 241, 235); */
+        /* justify-content: center;   */
+     }
+     .left-section{
+        width:auto;
+        height: auto;
+    }
+    .right-section{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .section-head{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-part-home{
+        width: 100%;
+    }
+    .right-part-home{
+        width: 100%;
+    }
+    .right-part-home img{
+     width: 90vw;
+
+    }
+    
+/*------------------------ Bollywood-data--------------- */
+    .whole-data{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .Uni-data{
+        width: auto;
+       
+    }
+    .main-data{
+        display: flex;
+        flex-direction:column;
+ 
+    }
+}
