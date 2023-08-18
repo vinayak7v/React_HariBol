@@ -1,32 +1,4 @@
-/* 
 
-.heading{
-    text-align: center;
-}
-.sections{
-   
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-    
-}
-.sections{
-    gap: 50px;
-}
-a{
-    text-decoration: none;
-    
-}
-
-.logo{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    display: inline-block;
-    transform: rotate(269deg);
-}
- */
  .main-head{
     width: 100%;
 }
@@ -82,12 +54,12 @@ a{
     margin-top: 20px;
 }
 
-.activeClass{
+.active-Mode{
     color: rgb(113, 163, 38) !important;
     
 }
 
-.notactiveClass{
+.notactive-Mode{
     color: black !important;
    
 }
