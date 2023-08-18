@@ -43,5 +43,7 @@
         width: auto;
            
         }
+    .Social-Icone-bar{
+         flex-direction: column;
 
 }
