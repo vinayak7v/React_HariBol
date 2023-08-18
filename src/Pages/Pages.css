@@ -1,6 +1,6 @@
 /* ------------------Universal----------------- */
-*{
-    margin: 1px;
+body{
+    margin: 5px;
     padding: 0px;
 }
 
@@ -139,7 +139,9 @@
      width: 90vw;
 
     }
-    
+    .Uni-data{
+        margin: 0px;
+    }
 /*------------------------ Bollywood-data--------------- */
     .whole-data{
         display: flex;
