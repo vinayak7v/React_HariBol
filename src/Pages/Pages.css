@@ -143,7 +143,7 @@
 /*------------------------ Bollywood-data--------------- */
     .whole-data{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
         justify-content: center;
     }
     .Uni-data{
@@ -155,4 +155,12 @@
         flex-direction:column;
  
     }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .whole-data{
+      display: block;
+    }
+    
+
 }
