@@ -48,4 +48,9 @@
   .footer{
       padding: 0px;
   }
+ .social_child{
+    color: aqua;
+    height: 20px;
+
+  }
 }
