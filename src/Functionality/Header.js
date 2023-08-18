@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom';
+import { ImCross } from 'react-icons/im';
 import { AiOutlineBars } from 'react-icons/ai';
-import { RxCross1 } from 'react-icons/rx';
 import "./Header.css"
 
 const Header = () => {
-    const[isMobile, setIsMobile] = useState(false);
+    const[mobileView, setmobileView] = useState(false);
   return (
     <>
      <header className='main-head'>
@@ -15,16 +15,16 @@ const Header = () => {
             </Link>
         </div>
 
-        <nav className={isMobile? "mobile-view" : "nav-link"} onClick={()=>{setIsMobile(false)}}>
-            <li><NavLink to={"/"} className={({ isActive }) => (isActive ? 'activeClass' : 'notactiveClass')}>Home</NavLink></li>
-            <li><NavLink to={"/Bollywood"} className={({ isActive }) => (isActive ? 'activeClass' : 'notactiveClass')}>Bollywood</NavLink></li>
-            <li><NavLink to={"/HollyWood"} className={({ isActive }) => (isActive ? 'activeClass' : 'notactiveClass')}>HollyWood</NavLink></li>
-            <li><NavLink to={"/Technology"} className={({ isActive }) => (isActive ? 'activeClass' : 'notactiveClass')}>Technology</NavLink></li>
-            <li><NavLink to={"/Fitness"} className={({ isActive }) => (isActive ? 'activeClass' : 'notactiveClass')}>Fitness</NavLink></li>
-            <li><NavLink to={"/Food"} className={({ isActive }) => (isActive ? 'activeClass' : 'notactiveClass')}>Food</NavLink></li>
+        <nav className={mobileView? "mobile-view" : "nav-link"} onClick={()=>{setmobileView(false)}}>
+            <li><NavLink to='/' className={({ isCurrent }) => (isCurrent ? 'active-Mode' : 'notactive-Mode')}>Home</NavLink></li>
+            <li><NavLink to='/Bollywood' className={({ isCurrent }) => (isCurrent ? 'active-Mode' : 'notactive-Mode')}>Bollywood</NavLink></li>
+            <li><NavLink to='/Hollywood' className={({ isCurrent }) => (isCurrent ? 'active-Mode' : 'notactive-Mode')}>HollyWood</NavLink></li>
+            <li><NavLink to='/Technology' className={({ isCurrent }) => (isCurrent ? 'active-Mode' : 'notactive-Mode')}>Technology</NavLink></li>
+            <li><NavLink to='/Fitness' className={({ isCurrent }) => (isCurrent ? 'active-Mode' : 'notactive-Mode')}>Fitness</NavLink></li>
+            <li><NavLink to='/Food' className={({ isCurrent }) => (isCurrent ? 'active-Mode' : 'notactive-Mode')}>Food</NavLink></li>
         </nav>
-        <button className='menu-bar' onClick={()=>{setIsMobile(!isMobile)}}>
-            {isMobile ? <RxCross1/>  : <AiOutlineBars/>}
+        <button className='menu-bar' onClick={()=>{setmobileView(!mobileView)}}>
+            {mobileView ? <ImCross/>  : <AiOutlineBars/>}
         </button>
         <hr  className='hr-strline'/>
     </header> 
