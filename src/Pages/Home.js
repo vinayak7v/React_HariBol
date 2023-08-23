@@ -5,9 +5,9 @@ import TheLatest from "../Functionality/TheLatest";
 import TopPost from "../Functionality/TopPost";
 import TheLatestArticle from "../Functionality/TheLatestArticle";
 import LatestStories from "../Functionality/LatestStories";
-import Technology from "../assets/Technology.jpg";
-import Food from "../assets/Food.jpg";
-import SecondTech from "../assets/SecondTech.jpg";
+import Technology from "../assets/future.webp";
+import Food from "../assets/dessert.jpg";
+import SecondTech from "../assets/lambo.webp";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
           <Link to="/Technology">
             <div className="one">
               <h1>Title of Vertical Gallery</h1>
-              <p>Technology/29 September</p>
+              <p>Technology/1 October</p>
             </div>
             <img src={Technology} alt="Not found"  height={"550px"} width={"100%"} />
           </Link>
@@ -32,7 +32,7 @@ function Home() {
           <Link to="/Food">
             <div className="two">
               <h2>Title of Vertical Gallery</h2>
-              <p>Technology/29 September</p>
+              <p>Technology/1 October</p>
             </div>
             <img src={Food} alt="Not found" height={"235px"} width={"100%"}/>
           </Link>
@@ -41,7 +41,7 @@ function Home() {
           <Link to="/Technology">
             <div className="three">
               <h2>Title of Vertical Gallery</h2>
-              <p>Technology/29 September</p>
+              <p>Technology/1 October</p>
             </div>
             <img src={SecondTech} alt="Not found" height={"240px"} width={"100%"}/> 
           </Link>

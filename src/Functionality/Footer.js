@@ -40,7 +40,7 @@ function Footer() {
 
       </div>
       <div className="Copy-right-container">
-        <h3>All CopyRight @ 2023 reserved Akshat Mishra </h3>
+        <h3> contact @ Vinayak Kaushik </h3>
       </div>
     </footer>
   );

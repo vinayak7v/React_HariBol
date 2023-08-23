@@ -1,9 +1,12 @@
-.display-latest{
+/* .display-latest{
     /* display:flex;
     flex-direction: row; */
-}
+    
+/* } */ 
 .dattaa{
     display: flex;
+    background-color: black;
+    color: red;
 }
 @media screen and (min-width:200px) and (max-width:736px){
     .dattaa{

@@ -2,6 +2,8 @@
 body{
     margin: 5px;
     padding: 0px;
+    background-color: black;
+   color: red;
 }
 
 
@@ -11,9 +13,16 @@ body{
    display: flex;
    /* background-color: rgb(223, 241, 235); */
    justify-content: space-evenly;
+   background-color: black;
+   color: red;
    /* height: ; */
   
    
+}
+.the-latest-area{
+    background-color: black;
+   color: red;
+
 }
 /* .left-section{
     width:40%;
@@ -30,6 +39,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    color: white;
 }
 .one{ 
     position: absolute;
@@ -45,6 +55,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     row-gap: 5px;
+    color: white;
 }
 
 .right-part-home{
@@ -53,6 +64,7 @@ body{
     justify-content: center;
     align-items: center;
     flex: auto;
+    color: white;
 }
 .two{ 
     position: absolute;
@@ -74,6 +86,7 @@ body{
 .section-head{
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 /* ----------------Bollywood-data-------------- */
 .hr-line{
@@ -87,10 +100,12 @@ body{
     /* box-shadow: 0px 0px 2px black; */
 }
 .link-data{
-    color: black;
+    /* color: black; */
+    color: white;
 }
 .whole-data{
     display: flex;
+    color: white;
 }
 .subhead-data{
     color: rgb(164, 189, 190);
@@ -100,6 +115,7 @@ body{
 .main-data{
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 

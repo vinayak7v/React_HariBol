@@ -1,6 +1,8 @@
 
  .main-head{
     width: 100%;
+    background-color: black;
+    /* color: white; */
 }
 
 
@@ -13,7 +15,7 @@
 }
 
 .Logo-bar a{
-    color: black;
+    color: rgb(172, 2, 2);
     text-decoration: none;
 }
 .Logo-name{
@@ -31,10 +33,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    /* color: white; */
    
 }
 .link-data{
     text-decoration: none;
+    /* color: white; */
 }
 
 .nav-link a{
@@ -60,7 +64,7 @@
 }
 
 .notactive-Mode{
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
    
 }
 .buger{
