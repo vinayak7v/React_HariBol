@@ -59,7 +59,7 @@ const Discription = () => {
                     />
                   </div>
                   <div className="use-name">
-                    <p>Yuvaan</p>
+                    <p>Vinayak</p>
                     <p>16-Aug-2023 |8 min read </p>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Discription = () => {
                     />
                   </div>
                   <div className="use-name">
-                    <p>Yuvaan</p>
+                    <p>Vinayak</p>
                     <p>16-Aug-2023 :8 min read </p>
                   </div>
                 </div>

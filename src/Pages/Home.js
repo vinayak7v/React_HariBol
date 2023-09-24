@@ -22,6 +22,7 @@ function Home() {
               <p>Technology/1 October</p>
             </div>
             <img src={Technology} alt="Not found"  height={"550px"} width={"100%"} />
+            
           </Link>
           </div>
         </div>
@@ -44,6 +45,7 @@ function Home() {
               <p>Technology/1 October</p>
             </div>
             <img src={SecondTech} alt="Not found" height={"240px"} width={"100%"}/> 
+            
           </Link>
           </div>
         </div>

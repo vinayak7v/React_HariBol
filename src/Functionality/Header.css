@@ -99,6 +99,7 @@
         width: 100%;
         flex-direction: column;
         background: white;
+        /* color: black; */
         height: 18.1rem;
     }
     .mobile-view li{
@@ -106,6 +107,7 @@
         text-align: center;
         font-size: 2rem;
         list-style: none;
+        
     }
     
     .menu-bar{
@@ -118,6 +120,10 @@
         position: absolute;
         top: 16px;
         right: 11px;
+        color: aquamarine;
+        background-color: red;
+        /* color: black; */
     }
+   
 }
  

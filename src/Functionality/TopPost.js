@@ -49,7 +49,19 @@ function TopPost() {
       })}
 
       <div className="advertise">
-        <h1>Advertisement</h1>
+        <h1>Advertisement 1</h1>
+      </div>
+      <div className="advertise">
+      <h1>Advertisement 2</h1>
+      </div>
+      <div className="advertise">
+      <h1>Advertisement 3</h1>
+      </div>
+      <div className="advertise">
+      <h1>Advertisement 4</h1>
+      </div>
+      <div className="advertise">
+      <h1>Advertisement 5</h1>
       </div>
     </div>
     
