@@ -1,10 +1,14 @@
 import React, { useContext } from "react";
 import { Store } from "../Data/DataStore";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./TheLatest.css";
 
 function TheLatest() {
   const [BlogData] = useContext(Store);
+  const path = useParams ().id
+  console.log (path);
+  // const categorey = BlogData[parseInt(path)-1].categorey;
+  // console.log (categorey);
   return (
   <>
    <div className="latest-home-data">
@@ -16,8 +20,8 @@ function TheLatest() {
         <div className="dattaa">
         {BlogData.filter(
         (item) =>
-          item.id % 12 === 0 &&
-          (item.categorey === "Technology" || item.categorey === "Food")
+          item.id % 4 === 0 &&
+          (item.categorey === "Technology")
       ).map((data) => {
         return (
           <>

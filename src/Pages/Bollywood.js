@@ -3,6 +3,7 @@ import { Store } from "../Data/DataStore";
 import "./Pages.css";
 import { Link } from "react-router-dom";
 import TopPost from "../Functionality/TopPost";
+// import BackButton from "../Functionality/BackButton";
 // import TopPost from "../Functionality/TopPost";
 
 function Bollywood() {
@@ -55,6 +56,7 @@ function Bollywood() {
       </div>
       <div className="right-side-data"></div>
     <TopPost/>
+    
     </div>
   );
 }

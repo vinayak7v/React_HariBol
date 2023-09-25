@@ -98,7 +98,8 @@
         z-index: 999;
         width: 100%;
         flex-direction: column;
-        background: white;
+        text-decoration: none;
+        background: red;
         /* color: black; */
         height: 18.1rem;
     }
@@ -107,7 +108,7 @@
         text-align: center;
         font-size: 2rem;
         list-style: none;
-        
+        text-decoration: none;
     }
     
     .menu-bar{
