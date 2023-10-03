@@ -1,11 +1,22 @@
 .advertise{
     width: 30vw;
     height: 450px ;
-    color: black;
-    background-color: rgb(242, 8, 8);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     justify-content: center;
     text-align: center;
     margin: 35px;
+
+
+.adimage{
+height: 100%;
+width: 100%;
+}
+.adone > img{
+  height: 100%;
+  width: 100%;
+}
+
 
 }
 @media screen and (min-width:200px) and (max-width:736px) {

@@ -31,10 +31,10 @@ function Footer() {
         </div>
         <div className="Footer-social-icon">
             <h3> Contact US </h3>
-          <Link to='/' target="_blank"><div className="social_child"> <AiFillFacebook className="fb"/>facebook</div></Link>
-          <Link to='/'target="_blank" ><div className="social_child"><AiFillInstagram className="insta"/> Intagram</div></Link>
-          <Link to='/' target="_blank"><div className="social_child"><AiFillGithub className="git"/> github</div></Link>
-          <Link to='/' target="_blank"><div className="social_child"> <AiFillLinkedin className="link"/>linkedin</div></Link>
+          <Link to='https://www.facebook.com' target="_blank"><div className="social_child"> <AiFillFacebook className="fb"/>facebook</div></Link>
+          <Link to='https://www.instagram.com'target="_blank" ><div className="social_child"><AiFillInstagram className="insta"/> Intagram</div></Link>
+          <Link to='https://github.com' target="_blank"><div className="social_child"><AiFillGithub className="git"/> github</div></Link>
+          <Link to='https://www.linkedin.com' target="_blank"><div className="social_child"> <AiFillLinkedin className="link"/>linkedin</div></Link>
         </div>
         </div>
 
