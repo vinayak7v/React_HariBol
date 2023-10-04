@@ -4,6 +4,7 @@ body{
     padding: 0px;
     background-color: black;
    color: red;
+   
 }
 
 
@@ -95,6 +96,7 @@ body{
 }
 .Uni-data{
     width: 40vw;
+    /* height: ; */
     /* display: flex;
     flex-direction: row; */
     /* box-shadow: 0px 0px 2px black; */
@@ -107,6 +109,11 @@ body{
     display: flex;
     color: white;
 }
+.img-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .subhead-data{
     color: rgb(164, 189, 190);
     font-weight: 700;
@@ -117,6 +124,9 @@ body{
     justify-content: space-between;
     color: white;
 }
+/* .left-side-data{
+    width: 600px;
+} */
 
 
 
@@ -179,23 +189,11 @@ body{
 
 }
 
-@media screen and (min-width:768px) and (max-width:1024px) {
-    .whole-data{
-      display: block;
-    }
-    .left-section{
-        width: 100%;
-    }
-    .right-section{
-        display: none;
-    }
-    
 
-}
 
 
 .bigboy{
-    height: 1100px;
+    height: 1400px;
     width: 70%;
 }
 .badiyaimage{
@@ -253,4 +251,24 @@ body{
 }
 .manny{
     display: flex;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .whole-data{
+      display: block;
+    }
+    .left-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-section{
+        display: none;
+    }
+    .bigboy{
+        height: 800px;
+    }
+    
+
 }

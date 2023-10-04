@@ -23,7 +23,7 @@ const Discription = () => {
   
   console.log(BlogData);
   return (
-    <div>
+    <div className="MainDisc">
       <div className="disc-head">
         {/* <div>The Serine</div>
         <div>

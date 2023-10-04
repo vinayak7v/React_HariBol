@@ -1,3 +1,9 @@
 h2{
     color: red;
 }
+.head-subhead > h2{
+    margin: 0px;
+}
+.subhead-data {
+    margin: 0px;
+}

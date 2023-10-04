@@ -22,15 +22,15 @@ export const Store = createContext();
            categorey:'Bollywood',
            date:'02/Aug/2023'
         },
-        {
-           id:'2',
-           heading:'Love blossoms between Vijay Deverakonda and Samantha in new "Kushi" poster as trailer date and length are unveiled' ,
-           subheading:'The songs from "Kush" have already struck a chord with the audience, gaining widespread acclaim for their melodic compositions and captivating visuals. Fans are fervently hoping that the film will not only prove to be a delightful watch but also positively impact the careers of both Samantha and Vijay, who have already made significant strides in the industry.',
-           image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1eTm6B.img?w=612&h=344&m=6',
-           details:'The anticipation surrounding the upcoming romantic drama "Kushi" has reached its peak as lead actors Vijay Deverakonda and Samantha Ruth Prabhu"s scintillating chemistry has already captured the hearts of the audience through the films melodious songs. The excitement is further heightened as Vijay Deverakonda recently announced the release date of the films trailer, set to drop on August 9, much to the delight of eager fans.Directed by Shiva Nirvana, "Kushi" promises to be a heartwarming tale of love and companionship, and the reveal of the trailers runtime at 2 minutes and 41 seconds indicates that the sneak peek will provide a substantial glimpse into the films essence.To add to the excitement, Vijay Deverakonda shared a romantic poster on his Instagram account, featuring himself and Samantha in a captivating embrace. The caption accompanying the poster read,"Its here. This Aug 9th. 2 mins 41 secs of #KushiTrailer #Kushi Releasing worldwide Sept 1!" Samantha Ruth Prabhu also shared the same poster, amplifying the buzz and enthusiasm among fans.The much-anticipated film is slated for a worldwide release on September 1, this year. As admirers eagerly await the unveiling of the on-screen chemistry between Samantha and Vijay, its evident that the films release cannot come soon enough. While the duo had previously shared the screen in Nag Ashwins "Mahanati," "Kushi" marks the first time they will be seen together in substantial roles, adding to the allure of the project.',
-           categorey:'Bollywood',
-           date:'02/Aug/2023'
-        },
+      //   {
+      //      id:'2',
+      //      heading:'Love blossoms between Vijay Deverakonda and Samantha in new "Kushi" poster as trailer date and length are unveiled' ,
+      //      subheading:'The songs from "Kush" have already struck a chord with the audience, gaining widespread acclaim for their melodic compositions and captivating visuals. Fans are fervently hoping that the film will not only prove to be a delightful watch but also positively impact the careers of both Samantha and Vijay, who have already made significant strides in the industry.',
+      //      image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1eTm6B.img?w=612&h=344&m=6',
+      //      details:'The anticipation surrounding the upcoming romantic drama "Kushi" has reached its peak as lead actors Vijay Deverakonda and Samantha Ruth Prabhu"s scintillating chemistry has already captured the hearts of the audience through the films melodious songs. The excitement is further heightened as Vijay Deverakonda recently announced the release date of the films trailer, set to drop on August 9, much to the delight of eager fans.Directed by Shiva Nirvana, "Kushi" promises to be a heartwarming tale of love and companionship, and the reveal of the trailers runtime at 2 minutes and 41 seconds indicates that the sneak peek will provide a substantial glimpse into the films essence.To add to the excitement, Vijay Deverakonda shared a romantic poster on his Instagram account, featuring himself and Samantha in a captivating embrace. The caption accompanying the poster read,"Its here. This Aug 9th. 2 mins 41 secs of #KushiTrailer #Kushi Releasing worldwide Sept 1!" Samantha Ruth Prabhu also shared the same poster, amplifying the buzz and enthusiasm among fans.The much-anticipated film is slated for a worldwide release on September 1, this year. As admirers eagerly await the unveiling of the on-screen chemistry between Samantha and Vijay, its evident that the films release cannot come soon enough. While the duo had previously shared the screen in Nag Ashwins "Mahanati," "Kushi" marks the first time they will be seen together in substantial roles, adding to the allure of the project.',
+      //      categorey:'Bollywood',
+      //      date:'02/Aug/2023'
+      //   },
         {
            id:'3',
            heading:'Gal Gadot on turning producer and actor for "Heart of Stone": Liked being involved...' ,
@@ -58,15 +58,15 @@ export const Store = createContext();
            categorey:'Bollybood',
            date:'02/Aug/2023'
         },
-        {
-           id:'6',
-           heading:'Gal Gadot calls co-star Alia Bhatt her "sister", says she is "super-ready" for Hollywood' ,
-           subheading:'The Heart of Stone actor talks about her journey as an Israeli artiste making an impact in Hollywood, and her experience performing action sequences in the upcoming spy thriller',
-           image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4JpWh6thzWS7m26Gb-dCDazjULoz6aOVHQw&usqp=CAU',
-           details:'Gal Gadot has become inseparable from the character of Wonder Woman in the present day. But the trials and tribulations of making it to the top in such a competitive industry are only known to the Israeli actor. Starting from facing rejection in an audition for the Bond girl role in Quantum of Solace (2008), to ultimately etching her name in history with earning a star on the prestigious Hollywood Walk of Fame, Gal has reached great heights during the span of her remarkable career.Whats even more uncommon is her achievement in an unfamiliar countrys film industry, where she wasnt originally from. In that aspect, her journey is akin to her Heart of Stone co-star, Alia Bhatt. Alia, who embarked on her acting career in Bollywood with Karan Johars Student of the Year in 2012, has made remarkable progress over the course of a decade. Her most recent accomplishment involves her international debut, acting alongside Gal Gadot in the upcoming spy thriller Heart of Stone directed by Tom Harper.In an exclusive conversation with an Indian news outlet, Gal mentioned that observing Alia navigate the initial phases of Hollywood does evoke memories of her own struggles.“We share so much in common. From the very first time we met, I felt we connected. Not just because both of us are from different countries and English is not our native language and the culture we come from is very different, but she brings a lot of warmth with her ... You get what you see,” Gal was quoted as saying.',
-           categorey:'Hollywood',
-           date:'02/Aug/2023'
-        },
+      //   {
+      //      id:'6',
+      //      heading:'Gal Gadot calls co-star Alia Bhatt her "sister", says she is "super-ready" for Hollywood' ,
+      //      subheading:'The Heart of Stone actor talks about her journey as an Israeli artiste making an impact in Hollywood, and her experience performing action sequences in the upcoming spy thriller',
+      //      image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4JpWh6thzWS7m26Gb-dCDazjULoz6aOVHQw&usqp=CAU',
+      //      details:'Gal Gadot has become inseparable from the character of Wonder Woman in the present day. But the trials and tribulations of making it to the top in such a competitive industry are only known to the Israeli actor. Starting from facing rejection in an audition for the Bond girl role in Quantum of Solace (2008), to ultimately etching her name in history with earning a star on the prestigious Hollywood Walk of Fame, Gal has reached great heights during the span of her remarkable career.Whats even more uncommon is her achievement in an unfamiliar countrys film industry, where she wasnt originally from. In that aspect, her journey is akin to her Heart of Stone co-star, Alia Bhatt. Alia, who embarked on her acting career in Bollywood with Karan Johars Student of the Year in 2012, has made remarkable progress over the course of a decade. Her most recent accomplishment involves her international debut, acting alongside Gal Gadot in the upcoming spy thriller Heart of Stone directed by Tom Harper.In an exclusive conversation with an Indian news outlet, Gal mentioned that observing Alia navigate the initial phases of Hollywood does evoke memories of her own struggles.“We share so much in common. From the very first time we met, I felt we connected. Not just because both of us are from different countries and English is not our native language and the culture we come from is very different, but she brings a lot of warmth with her ... You get what you see,” Gal was quoted as saying.',
+      //      categorey:'Hollywood',
+      //      date:'02/Aug/2023'
+      //   },
         {
            id:'7',
            heading:'Sound of Freedom: Why a Hollywood movie on child sex trafficking has left Leftists and Liberals aghast' ,
@@ -190,15 +190,15 @@ export const Store = createContext();
            categorey:'Fitness',
            date:'02/Aug/2023'
         },
-        {
-           id:'21',
-           heading:'Planks vs push-ups: Know the differences, and which is better for beginners' ,
-           subheading:'Planks are a form of isometric exercise that engages the core muscles, including the abdominals, buttocks, thighs, upper back and lower back. ',
-           image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1bYI8g.img?w=612&h=340&m=6',
-           details:'Planks and push-ups are two popular bodyweight exercises that mainly target the core muscle. Both can be done nearly anywhere as neither do they require any equipment, or much space. But is one exercise better than the other when it comes to achieving your fitness goals? To get the answers, we turned to an expert.According to Aminder Singh, a fitness expert and founder of Team Aminder, planks are a form of isometric exercise that engage the core muscles, including the abdominals, buttocks, thighs, upper back, and lower back. "By performing planks, you can strengthen multiple muscle groups simultaneously via contractions," he told indianexpress.com.On the other hand, pushups are a kind of calisthenics exercise that utilise your body weight as resistance. "They are useful for enhancing upper body strength," he added.Talking about the advantages of performing planks, Singh said that this exercise involves applying force without any movement, making it a versatile and beneficial exercise for individuals with varying fitness levels. "Another crucial advantage of planks is that there are numerous variations of them to suit individual abilities. Whether you are older, more fragile, or muscular, the plank can be customised to fulfill your specific needs and goals," he added.',
-           categorey:'Fitness',
-           date:'02/Aug/2023'
-        },
+      //   {
+      //      id:'21',
+      //      heading:'Planks vs push-ups: Know the differences, and which is better for beginners' ,
+      //      subheading:'Planks are a form of isometric exercise that engages the core muscles, including the abdominals, buttocks, thighs, upper back and lower back. ',
+      //      image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1bYI8g.img?w=612&h=340&m=6',
+      //      details:'Planks and push-ups are two popular bodyweight exercises that mainly target the core muscle. Both can be done nearly anywhere as neither do they require any equipment, or much space. But is one exercise better than the other when it comes to achieving your fitness goals? To get the answers, we turned to an expert.According to Aminder Singh, a fitness expert and founder of Team Aminder, planks are a form of isometric exercise that engage the core muscles, including the abdominals, buttocks, thighs, upper back, and lower back. "By performing planks, you can strengthen multiple muscle groups simultaneously via contractions," he told indianexpress.com.On the other hand, pushups are a kind of calisthenics exercise that utilise your body weight as resistance. "They are useful for enhancing upper body strength," he added.Talking about the advantages of performing planks, Singh said that this exercise involves applying force without any movement, making it a versatile and beneficial exercise for individuals with varying fitness levels. "Another crucial advantage of planks is that there are numerous variations of them to suit individual abilities. Whether you are older, more fragile, or muscular, the plank can be customised to fulfill your specific needs and goals," he added.',
+      //      categorey:'Fitness',
+      //      date:'02/Aug/2023'
+      //   },
         {
            id:'22',
            heading:'Deep brain stimulation could be beneficial for stroke patients' ,
@@ -442,15 +442,15 @@ export const Store = createContext();
          categorey:'Food',
          date:'02/Aug/2023'
       },
-      {
-         id:'49',
-         heading:'Professional FAQs: What are the health benefits of having tamarind?' ,
-         subheading:'Tamarind is rich in iron, magnesium and phosphorus which makes a good source of anti-inflammatory compounds. However, tamarind is a high carbohydrate, high sugar fruit and in order to get enough of the benefits you will need to eat a big quantity which will consequently mean you eat a lot of sugar - this will in turn increase blood glucose, blood insulin and therefore drive more inflammation in the body.A good substitute for the needed compounds found in tamarind are pastured eggs, pastured ruminant meat and liver (beef, lamb, goat, bison) as well as wild caught game or fish.',
-         image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1faLTe.img?w=800&h=415&q=60&m=2&f=jpg',
-         details:'Tamarind is a great source of antioxidants which may reduce cancer risk, have antimicrobial properties, attenuate oxidative stress, regulate blood sugar levels, and promote cardiovascular health (Arshad et al, 2019).',
-         categorey:'Food',
-         date:'02/Aug/2023'
-      },
+      // {
+      //    id:'49',
+      //    heading:'Professional FAQs: What are the health benefits of having tamarind?' ,
+      //    subheading:'Tamarind is rich in iron, magnesium and phosphorus which makes a good source of anti-inflammatory compounds. However, tamarind is a high carbohydrate, high sugar fruit and in order to get enough of the benefits you will need to eat a big quantity which will consequently mean you eat a lot of sugar - this will in turn increase blood glucose, blood insulin and therefore drive more inflammation in the body.A good substitute for the needed compounds found in tamarind are pastured eggs, pastured ruminant meat and liver (beef, lamb, goat, bison) as well as wild caught game or fish.',
+      //    image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1faLTe.img?w=800&h=415&q=60&m=2&f=jpg',
+      //    details:'Tamarind is a great source of antioxidants which may reduce cancer risk, have antimicrobial properties, attenuate oxidative stress, regulate blood sugar levels, and promote cardiovascular health (Arshad et al, 2019).',
+      //    categorey:'Food',
+      //    date:'02/Aug/2023'
+      // },
       {
          id:'50',
          heading:'Avocado Benefits For Heart: How This Bright Green Fruit Helps Heart to Function Better?' ,
@@ -532,24 +532,24 @@ export const Store = createContext();
          categorey:'Hollywood',
          date:'02/Aug/2023'
       },
-      {
-         id:'59',
-         heading:'Cole Sprouse Opens Up On Fan Backlash After Split With Riverdale Co-star Lili Reinhart' ,
-         subheading:'In a recent interview, Cole Sprouse opened up on “nasty” fan reaction on his split with Riverdale co-star Lili Reinhart. The two dated for 3 years.',
-         image:'https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/efw6rdh6izilze10_1692204538.jpeg',
-         details:'Riverdale is finally coming to an end after 7 seasons and more than 130 episodes. Based on Archie comics, the Netflix show starred Cole Sprouse, Lili Reinhart, KJ Apa and Camila Mendes in the lead roles. During the runtime of the series, Cole and Lili dated for three years intermittently and finally broke up in 2020. In a recent interview, the The Suite Life of Zack & Cody star opened up on “nasty” fan reaction on their split.In a conversation with Vulture, Cole talked about the nasty fan reaction to his break up with Lili. The actor added professional and personal lines were blurred to their audience. He said, "I get a lot of stuff sent to my house or my loved ones houses. Death threats, really nasty, honestly criminal stuff. Is that just a consequence of an incredible love? Or is that what fanaticism looks like? Perhaps because those lines were blurred to our audience, it is hard to break those things up when life moves on."This is not the first time Cole has talked about the public outrage over their breakup. Earlier, he opened up on how the public reacted to his separation with Lili and his current relationship with Ari Fournier, who he has been dating since July 2021. The actor said that netizens report everything about him and Ari as "bullying" and it immediately gets taken down. ',
-         categorey:'Hollywood',
-         date:'02/Aug/2023'
-      },
-      {
-         id:'60',
-         heading:'Kendall Jenner Talks About Loving "hard" After PDA Photos With Bad Bunny Go Viral' ,
-         subheading:'Kendall Jenner opens up about her approach to love, emphasizing privacy and wisdom in relationships, reflecting on her journey to self-discovery.',
-         image:'https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/hgjiq5v5db7pn20t_1692259693.jpeg',
-         details:'Kendall Jenner was spotted getting intimate with Puerto Rican rapper Bad Bunny at Drakes concert a couple of days back. In a recent interview with a portal, the renowned model and reality TV star talked about her approach to love and how she prefers to keep her romantic life private. In the exclusive feature within Harpers Bazaar ICONS issue, Jenner however refrained from divulging specifics about her relationship with Bad Bunny.I love really hard, and I love without apology," expressed Kendall, revealing her passionate and determined nature. She emphasized her aversion to goodbyes and her resolute stance to fight for relationships, acknowledging her long-standing commitment to fostering connections since her early years, despite her former shyness.While Jenner did not explicitly discuss her romance with Bad Bunny, who is also known as Benito Antonio Martínez Ocasio, their recent public displays of affection have been a topic of intrigue. Videos emerged of the couple sharing a kiss during a lively dance at a Drake concert, showcasing their affection in the spotlight. They were also spotted enjoying breakfast together.',
-         categorey:'Hollywood',
-         date:'02/Aug/2023'
-      },
+      // {
+      //    id:'59',
+      //    heading:'Cole Sprouse Opens Up On Fan Backlash After Split With Riverdale Co-star Lili Reinhart' ,
+      //    subheading:'In a recent interview, Cole Sprouse opened up on “nasty” fan reaction on his split with Riverdale co-star Lili Reinhart. The two dated for 3 years.',
+      //    image:'https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/efw6rdh6izilze10_1692204538.jpeg',
+      //    details:'Riverdale is finally coming to an end after 7 seasons and more than 130 episodes. Based on Archie comics, the Netflix show starred Cole Sprouse, Lili Reinhart, KJ Apa and Camila Mendes in the lead roles. During the runtime of the series, Cole and Lili dated for three years intermittently and finally broke up in 2020. In a recent interview, the The Suite Life of Zack & Cody star opened up on “nasty” fan reaction on their split.In a conversation with Vulture, Cole talked about the nasty fan reaction to his break up with Lili. The actor added professional and personal lines were blurred to their audience. He said, "I get a lot of stuff sent to my house or my loved ones houses. Death threats, really nasty, honestly criminal stuff. Is that just a consequence of an incredible love? Or is that what fanaticism looks like? Perhaps because those lines were blurred to our audience, it is hard to break those things up when life moves on."This is not the first time Cole has talked about the public outrage over their breakup. Earlier, he opened up on how the public reacted to his separation with Lili and his current relationship with Ari Fournier, who he has been dating since July 2021. The actor said that netizens report everything about him and Ari as "bullying" and it immediately gets taken down. ',
+      //    categorey:'Hollywood',
+      //    date:'02/Aug/2023'
+      // },
+      // {
+      //    id:'60',
+      //    heading:'Kendall Jenner Talks About Loving "hard" After PDA Photos With Bad Bunny Go Viral' ,
+      //    subheading:'Kendall Jenner opens up about her approach to love, emphasizing privacy and wisdom in relationships, reflecting on her journey to self-discovery.',
+      //    image:'https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/hgjiq5v5db7pn20t_1692259693.jpeg',
+      //    details:'Kendall Jenner was spotted getting intimate with Puerto Rican rapper Bad Bunny at Drakes concert a couple of days back. In a recent interview with a portal, the renowned model and reality TV star talked about her approach to love and how she prefers to keep her romantic life private. In the exclusive feature within Harpers Bazaar ICONS issue, Jenner however refrained from divulging specifics about her relationship with Bad Bunny.I love really hard, and I love without apology," expressed Kendall, revealing her passionate and determined nature. She emphasized her aversion to goodbyes and her resolute stance to fight for relationships, acknowledging her long-standing commitment to fostering connections since her early years, despite her former shyness.While Jenner did not explicitly discuss her romance with Bad Bunny, who is also known as Benito Antonio Martínez Ocasio, their recent public displays of affection have been a topic of intrigue. Videos emerged of the couple sharing a kiss during a lively dance at a Drake concert, showcasing their affection in the spotlight. They were also spotted enjoying breakfast together.',
+      //    categorey:'Hollywood',
+      //    date:'02/Aug/2023'
+      // },
       {
          id:'61',
          heading:'Yoga v/s Pilates: Which Form of Workout is the Best for You?' ,
@@ -559,15 +559,15 @@ export const Store = createContext();
          categorey:'Fitness',
          date:'02/Aug/2023'
       },
-      {
-         id:'62',
-         heading:'Strength training vs resistance training: What’s the difference?' ,
-         subheading:'Exercising is not always about weight loss. It is also about keeping your muscles strong and staying fit in general. ',
-         image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1b7X1U.img?w=768&h=432&m=6&x=450&y=104&s=98&d=98',
-         details:'Adults who lead an inactive life experience three to eight percent loss of muscle mass per decade, apart from fat accumulation, notes a 2012 study published by the US National Library of Medicine. Fitness enthusiasts will tell you to go for strength training, but some may urge you to try resistance training. Now comes the important question. How are strength training and resistance training different?trength training is a form of physical exercise that focuses on building and developing muscle strength and endurance through resistance or weight training exercises, celebrity coach and athlete Rohit Nair tells Health Shots. It basically involves using machines, free weights or bodyweight exercises.it is true that strength training and resistance training are often used interchangeably, but there is a subtle difference between the two.Strength training focuses primarily on increasing muscle strength and power. It involves lifting heavy weights for a lower number of repetitions, typically in the range of 1 to 6 repetitions per set. The emphasis is on challenging the muscles with maximum resistance to stimulate muscle growth and strength gains.',
-         categorey:'Fitness',
-         date:'02/Aug/2023'
-      },
+      // {
+      //    id:'62',
+      //    heading:'Strength training vs resistance training: What’s the difference?' ,
+      //    subheading:'Exercising is not always about weight loss. It is also about keeping your muscles strong and staying fit in general. ',
+      //    image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1b7X1U.img?w=768&h=432&m=6&x=450&y=104&s=98&d=98',
+      //    details:'Adults who lead an inactive life experience three to eight percent loss of muscle mass per decade, apart from fat accumulation, notes a 2012 study published by the US National Library of Medicine. Fitness enthusiasts will tell you to go for strength training, but some may urge you to try resistance training. Now comes the important question. How are strength training and resistance training different?trength training is a form of physical exercise that focuses on building and developing muscle strength and endurance through resistance or weight training exercises, celebrity coach and athlete Rohit Nair tells Health Shots. It basically involves using machines, free weights or bodyweight exercises.it is true that strength training and resistance training are often used interchangeably, but there is a subtle difference between the two.Strength training focuses primarily on increasing muscle strength and power. It involves lifting heavy weights for a lower number of repetitions, typically in the range of 1 to 6 repetitions per set. The emphasis is on challenging the muscles with maximum resistance to stimulate muscle growth and strength gains.',
+      //    categorey:'Fitness',
+      //    date:'02/Aug/2023'
+      // },
       {
          id:'63',
          heading:'15 mini workout options when you’re pressed for time' ,
@@ -622,15 +622,15 @@ export const Store = createContext();
          categorey:'Food',
          date:'02/Aug/2023'
       },
-      {
-         id:'69',
-         heading:'Edible mushroom: Nutrition tips from experts  ' ,
-         subheading:'Mushrooms are known for their antioxidant properties, which can help to neutralise free radicals. As free radicals over time can damage the body and speed up the aging process.',
-         image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fo4x9.img?w=800&h=415&q=60&m=2&f=jpg?w=800&h=415&q=60&m=2&f=jpg',
-         details:'Mushrooms are low in sodium, a good source of potassium and essentially fat free. It is good at maintaining blood pressure and cholesterol levels. It may contribute positively to reducing risk of cardiovascular disease.Mushrooms contain prebiotic which can help support a healthy gut. The fibre in mushrooms are insoluble which can help keep bowels regular.Mushrooms are low in calories, which can be suitable for those watching their food intake and wanting to lose weight. They can make a meal more filling, which can help decrease hunger after meals.',
-         categorey:'Food',
-         date:'02/Aug/2023'
-      },
+      // {
+      //    id:'69',
+      //    heading:'Edible mushroom: Nutrition tips from experts  ' ,
+      //    subheading:'Mushrooms are known for their antioxidant properties, which can help to neutralise free radicals. As free radicals over time can damage the body and speed up the aging process.',
+      //    image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fo4x9.img?w=800&h=415&q=60&m=2&f=jpg?w=800&h=415&q=60&m=2&f=jpg',
+      //    details:'Mushrooms are low in sodium, a good source of potassium and essentially fat free. It is good at maintaining blood pressure and cholesterol levels. It may contribute positively to reducing risk of cardiovascular disease.Mushrooms contain prebiotic which can help support a healthy gut. The fibre in mushrooms are insoluble which can help keep bowels regular.Mushrooms are low in calories, which can be suitable for those watching their food intake and wanting to lose weight. They can make a meal more filling, which can help decrease hunger after meals.',
+      //    categorey:'Food',
+      //    date:'02/Aug/2023'
+      // },
       {
          id:'70',
          heading:'Can vitamin C help you stop heavy periods?' ,
@@ -676,15 +676,15 @@ export const Store = createContext();
          categorey:'Technology',
          date:'02/Aug/2023'
       },
-      {
-         id:'75',
-         heading:'Bluesky Gets Self-Labeling Feature For Posts, Media Tab' ,
-         subheading:'Twitter co-founder Jack Dorsey-backed Bluesky has announced that it is rolling out new features, including a self-labeling feature for posts, a new dedicated media tab, and more.',
-         image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fpjnI.img?w=612&h=350&m=6',
-         details:'Twitter co-founder Jack Dorsey-backed Bluesky has announced that it is rolling out new features, including a self-labeling feature for posts, a new dedicated media tab, and more.To access this feature, users can go to the shield icon in the composer window. According to the company, self-tagging will expand categories of labels over time.The platform is also adding a dedicated media tab to profiles, which allows visitors to look at images and videos posted by a user. Moreover, the company is rolling out a feature that provides more information about blocked quoted posts, the report said.Last month, Bluesky replaced the "Whats Hot" feed with a new "Discover" feed.The Discover feed is a more complex feed that will evolve over time, according to the company. However, if users do not like the Discover feed, they can simply remove it and replace it with any other custom feed.Also, the Dorsey-backed company had raised $8 million to support its mission and growth. In June, the platform introduced new moderation and safety tooling including user lists and reply controls.Also, the Dorsey-backed company had raised $8 million to support its mission and growth. In June, the platform introduced new moderation and safety tooling including user lists and reply controls.Also, the Dorsey-backed company had raised $8 million to support its mission and growth. In June, the platform introduced new moderation and safety tooling including user lists and reply controls.Along with user lists and reply controls, Bluesky also introduced labeling, moderation controls, and hashtags.',
-         categorey:'Technology',
-         date:'02/Aug/2023'
-      },
+      // {
+      //    id:'75',
+      //    heading:'Bluesky Gets Self-Labeling Feature For Posts, Media Tab' ,
+      //    subheading:'Twitter co-founder Jack Dorsey-backed Bluesky has announced that it is rolling out new features, including a self-labeling feature for posts, a new dedicated media tab, and more.',
+      //    image:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fpjnI.img?w=612&h=350&m=6',
+      //    details:'Twitter co-founder Jack Dorsey-backed Bluesky has announced that it is rolling out new features, including a self-labeling feature for posts, a new dedicated media tab, and more.To access this feature, users can go to the shield icon in the composer window. According to the company, self-tagging will expand categories of labels over time.The platform is also adding a dedicated media tab to profiles, which allows visitors to look at images and videos posted by a user. Moreover, the company is rolling out a feature that provides more information about blocked quoted posts, the report said.Last month, Bluesky replaced the "Whats Hot" feed with a new "Discover" feed.The Discover feed is a more complex feed that will evolve over time, according to the company. However, if users do not like the Discover feed, they can simply remove it and replace it with any other custom feed.Also, the Dorsey-backed company had raised $8 million to support its mission and growth. In June, the platform introduced new moderation and safety tooling including user lists and reply controls.Also, the Dorsey-backed company had raised $8 million to support its mission and growth. In June, the platform introduced new moderation and safety tooling including user lists and reply controls.Also, the Dorsey-backed company had raised $8 million to support its mission and growth. In June, the platform introduced new moderation and safety tooling including user lists and reply controls.Along with user lists and reply controls, Bluesky also introduced labeling, moderation controls, and hashtags.',
+      //    categorey:'Technology',
+      //    date:'02/Aug/2023'
+      // },
       
        
     ])

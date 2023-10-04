@@ -6,7 +6,9 @@
     box-shadow: 0px 1px 4px gray;
 }
 .Disc-data-parts{
-    display: flex;   
+    display: flex;  
+    /* justify-content: left;  */
+    /* background-color: blue; */
 }
 .second-detail-data{
    width: 30vw;
@@ -25,6 +27,13 @@
     position: relative;
     top: 250px;
     left: 250px;
+}
+
+
+.MainDisc{
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 /* -------------------MEDIA_QUERY------------------ */
@@ -47,4 +56,31 @@
          flex-direction: column;
 
 }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    .disc-head{
+        /* background-color: aqua; */
+        display: flex;
+        /* gap: 350px; */
+        justify-content:space-around;
+        box-shadow: 0px 1px 4px gray;
+    }
+    .second-detail-data{
+        width: 30vw;
+        position: relative;
+        left: 100px;
+     }
+     .First-disc-data{
+   
+        /* height: 250px; */
+        position: relative;
+         top: 50px;
+        left: 50px; 
+    }
+    .Disc-data-parts{
+        display: flex;  
+        justify-content: left; 
+        /* background-color: blue; */
+    }
 }
