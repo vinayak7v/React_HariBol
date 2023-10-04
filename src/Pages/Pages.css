@@ -270,5 +270,36 @@ body{
         height: 800px;
     }
     
+    .main-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-side-data{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Uni-data{
+        width: 100%;
+    }
+    .dattaa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hatao-home{
+        display: none;
+    }
 
 }

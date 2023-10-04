@@ -66,6 +66,7 @@ function Home() {
       <div className="section-head">
         <div className="left-child">
           <TheLatestArticle />
+          <div className="hatao-home">
           <Link to='/Technology'><div> <img src={Technology} alt="Not Found" height={"400px"} width={"70%"} /></div></Link>
           <div className="bigboy">
 
@@ -116,10 +117,12 @@ function Home() {
                 <h5> Sanjay Dutt bounces a new movie in Threatre </h5>
               </div>
             </div>
-
+            
 
           </div>
+          </div>
         </div>
+
         <div className="Right-child">
           <TopPost />
         </div>
