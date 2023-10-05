@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { Store } from "../Data/DataStore";
 import "./Pages.css";
 import { Link } from "react-router-dom";
-import TopPost from "../Functionality/TopPost";
+// import TopPost from "../Functionality/TopPost";
+import TopPostFood from "../Functionality/TopPostFood";
 
 function Food() {
   const [BlogData] = useContext(Store);
@@ -53,7 +54,7 @@ function Food() {
       <div>load more</div>
       </div>
       <div className="right-side-data"></div>
-    <TopPost/>
+    <TopPostFood/>
     </div>
   );
 }

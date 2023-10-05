@@ -13,16 +13,60 @@
 }
 @media screen and (min-width:200px) and (max-width:736px){
     .dattaa{
-       display: block;
-       width: auto;
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       flex-direction: column;
+       align-items: center;
        justify-content: center;
+       text-align: center;
     }
-    /* .latest-home-data{
-        width: auto;
+    .the-latest-area{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .media-latest{
-        width: auto;
-    } */
+    .subhead-data{
+        display: none;
+    }
+    .left-child{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hatao-home{
+        display: none;
+    }
+    .Right-child{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .centre-all{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Stories{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+   
     
 }
 @media screen and (min-width:768px) and (max-width:1024px){

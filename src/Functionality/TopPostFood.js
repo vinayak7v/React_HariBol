@@ -3,7 +3,7 @@ import { Store } from "../Data/DataStore";
 import { Link } from "react-router-dom";
 import "./TopPost.css";
 
-function TopPost() {
+function TopPostFood() {
   const [BlogData] = useContext(Store);
   return (
     <div className="centre-all">
@@ -14,8 +14,8 @@ function TopPost() {
 
       {BlogData.filter(
         (item) =>
-          item.id % 6 === 0 &&
-          (item.categorey === "Technology" || item.categorey === "Technology")
+          item.id % 3 === 0 &&
+          (item.categorey === "Food" || item.categorey === "Food")
       ).map((data) => {
         return (
           <div className="sticky">
@@ -92,4 +92,4 @@ function TopPost() {
   );
 }
 
-export default TopPost;
+export default TopPostFood;

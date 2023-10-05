@@ -19,7 +19,7 @@ function TheLatestArticle() {
           (item.categorey === "Technology" || item.categorey === "Food")
       ).map((data) => {
         return (
-          <>
+          <div className='StoryLatest'>
  <div className="Uni-data">
             <Link to={"/Discription/" + data.id} className="link-data">
              
@@ -45,7 +45,7 @@ function TheLatestArticle() {
               <hr />
             </Link>
             </div>
-          </>
+          </div>
         );
       })}
 

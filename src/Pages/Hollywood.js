@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { Store } from "../Data/DataStore";
 import "./Pages.css";
 import { Link } from "react-router-dom";
-import TopPost from "../Functionality/TopPost";
+// import TopPost from "../Functionality/TopPost";
+import TopPostHollywood from "../Functionality/TopPostHollywood";
 
 
 
@@ -56,7 +57,14 @@ function Hollywood() {
       <div>load more</div>
       </div>
       <div className="right-side-data"></div>
-    <TopPost/>
+
+
+
+
+    <TopPostHollywood/>
+
+
+    
     </div>
  </>
   );

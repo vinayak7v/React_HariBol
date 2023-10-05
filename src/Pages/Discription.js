@@ -50,7 +50,7 @@ const Discription = () => {
         return (
           <>
             <div className="Disc-whole-data1">
-              <div>
+              <div className="TargetText">
                 <h2>{data.heading}</h2>
               </div>
               <div className="Social-Icone-bar">

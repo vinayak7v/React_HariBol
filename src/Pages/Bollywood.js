@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { Store } from "../Data/DataStore";
 import "./Pages.css";
 import { Link } from "react-router-dom";
-import TopPost from "../Functionality/TopPost";
+// import TopPost from "../Functionality/TopPost";
+import TopPostBollywood from "../Functionality/TopPostBollywood";
 // import BackButton from "../Functionality/BackButton";
 // import TopPost from "../Functionality/TopPost";
 
@@ -55,7 +56,7 @@ function Bollywood() {
       <div>load more</div>
       </div>
       <div className="right-side-data"></div>
-    <TopPost/>
+    <TopPostBollywood/>
     
     </div>
   );

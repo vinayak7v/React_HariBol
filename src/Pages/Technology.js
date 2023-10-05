@@ -2,7 +2,8 @@ import React, { useContext,  } from 'react'
 import { Store } from '../Data/DataStore'
 import './Pages.css'
 import { Link } from 'react-router-dom';
-import TopPost from '../Functionality/TopPost';
+// import TopPost from '../Functionality/TopPost';
+import TopPostTechnology from '../Functionality/TopPostTechnology';
 
 function Technology() {
   const [BlogData] = useContext(Store);
@@ -54,7 +55,7 @@ function Technology() {
       <div>load more</div>
       </div>
       <div className="right-side-data"></div>
-    <TopPost/>
+    <TopPostTechnology/>
     </div>
     </>
   )
